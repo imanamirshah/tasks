@@ -41,6 +41,7 @@ public class Main {
         }
     }
 
+        System.out.println("Printing data using stream...");
     public static void printDeadlines(ArrayList<Task> tasksData) {
         for (Task t : tasksData) {
             if (t instanceof Deadline) {
